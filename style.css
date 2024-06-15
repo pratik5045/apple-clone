@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(189, 187, 187);
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+.swiping-container{
+  margin-left: 3vW;
+}
+  .heading-container{
+    display: flex;
+    padding-top: 3vh;
+    margin-left: 3vh;
+  }
+  .heading-container h3{
+    font-size: 3vh;
+  }
+  .change-container{
+    color: gray;
+  }
+  .first-container {
+    /* text-align: center; */
+    font-size: 18px;
+    width: 30%;
+    border-radius: 20px;
+  }
+  .down-container{
+    height: 80vh;
+    width: 100%;
+    /* background-color: aquamarine; */
+    margin-top: 5vh;
+  }
+ .image-container{
+    height: 100%;
+    width: 100%;
+    background: url(a01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+ }
+ .image-container h6{
+  padding-top: 4vh;
+  padding-left: 3vh;
+  font-size: 2.5vh;
+ }
+ .image-container h3{
+  padding-top: 2vh;
+  padding-left: 3vh;
+  font-size: 5vh;
+ }
+ .image-container2{
+  height: 100%;
+  width: 100%;
+  background: url(p9.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 20px;
+}
+
+.image-container2 h3{
+padding-top: 5vh;
+padding-left: 5vh;
+font-size: 5vh;
+}
+ .pa{
+  height: 100%;
+  width: fit-content;
+ }
+ .cad{
+  height: 100%;
+  width: 80%;
+  margin-left: 10%;
+  /* background-color: #fff; */
+  
+ }
+ .cad1{
+  height: 60%;
+  width: 100%;
+  /* background-color: red; */
+  border-radius: 20px 20px 0 0;
+  background-image: url(a02.jpg);
+  background-size: 100% 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+ .cad2{
+  height: 10%;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+ .cad2 img{
+  margin: 0 .5vw;
+ }
+ .cad3{
+  height: 30%;
+  width: 100%;
+  background-color:white;
+  border-radius:0 0 20px 20px;
+ }
+ .cad3 h3{
+  padding-top: 5vh;
+  margin-left: 2vh;
+ }
+
+ .cad3 p{
+  color: gray;
+  padding-top: 5vh;
+  margin-left: 2vh;
+ }
+ .bg1{
+  background-image:url(a03.jpg) ;
+ }
+ .bg2{
+  background-image:url(a04.jpg) ;
+ }
+ .bg3{
+  background-image:url(a10.jpg) ;
+ }
+ .bg4{
+  background-image:url(a13.jpg) ;
+ }
+ .bg5{
+  background-image:url(p1.jpg) ;
+ }
+ .bg6{
+  background-image:url(p2.jpg) ;
+ }
+ .bg7{
+  background-image:url(p3.jpg) ;
+ }
+.ic{
+  background-image: url(apple01.jpeg);
+}
+.back1{
+  background-image: url(apple02.jpeg);
+}
+.back2{
+  background-image: url(apple03.jpeg);
+}
+.back3{
+  background-image: url(apple06.jpeg);
+}
+.back4{
+  background-image: url(apple12.jpeg);
+}
+.back5{
+  background-image: url(apple16.jpeg);
+}
+.back6{
+  background-image: url(apple06.jpeg);
+}
+.back7{
+  background-image: url(ap1.jpeg);
+}
+ @media (min-width:1px) and (max-width:425px){
+  .cad{
+    width: 100%;
+    margin-left: 5%;
+  }
+  .heading-container{
+    margin-left: 0;
+  }
+  .heading-container h3{
+    font-size: 1.5vh;
+  }
+  .image-container{
+    margin-left: 5%;
+  }
+  .image-container2{
+    margin-left: 5%;
+
+    margin-right: 5%;
+  }
+ }
